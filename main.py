@@ -147,3 +147,4 @@ def favicon():
     return flask.send_from_directory('static', 'loveheart.ico', mimetype='image/vnd.microsoft.icon')
 
 app.run(host='0.0.0.0', port=11666, debug=True)
+#wzj
